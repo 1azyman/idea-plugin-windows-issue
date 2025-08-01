@@ -1,4 +1,4 @@
-package com.github.1azyman.ideapluginwindowsissue
+package com.github.idea.plugin.windows.issue
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

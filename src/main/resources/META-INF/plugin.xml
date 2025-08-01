@@ -1,6 +1,6 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.1azyman.ideapluginwindowsissue</id>
+    <id>com.github.idea.plugin.windows.issue</id>
     <name>idea-plugin-windows-issue</name>
     <vendor>1azyman</vendor>
 
@@ -9,7 +9,6 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.1azyman.ideapluginwindowsissue.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.1azyman.ideapluginwindowsissue.startup.MyProjectActivity" />
+
     </extensions>
 </idea-plugin>
