@@ -46,6 +46,8 @@ dependencies {
 
         testFramework(TestFrameworkType.Platform)
     }
+
+    implementation("io.github.classgraph:classgraph:4.8.181")
 }
 
 // Configure IntelliJ Platform Gradle Plugin - read more: https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin-extension.html
