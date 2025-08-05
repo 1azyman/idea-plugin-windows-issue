@@ -20,6 +20,7 @@ class ClassGraphTest : BasePlatformTestCase() {
             val classLoader = MyProjectService::class.java.classLoader as PathClassLoader
             val path = classLoader.files.get(0)
 
+            println("Using class loader: " + classLoader)
             println("Trying to create File from Path: " + path.toString())
             println("Path filesystem: " + path.fileSystem + ", global file system: " + FileSystems.getDefault())
 
